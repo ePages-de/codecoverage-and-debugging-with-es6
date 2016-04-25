@@ -1,0 +1,15 @@
+{
+  "presets": [
+    "es2015",
+    "stage-2",
+    "react"
+  ],
+  "env": {
+    "test-new": {
+      "plugins": [
+        ["__coverage__", {"ignore": "test/"}]
+      ]
+    }
+  },
+  "compact": false
+}
